@@ -5,4 +5,7 @@ def index():
     return "Hello flask"
 
 if __name__ == "__main__":
+    print("start flask")
     app.run(port=5000, debug=True)
+
+
